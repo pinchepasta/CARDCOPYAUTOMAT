@@ -9,5 +9,11 @@ Now you have your images, backups of them, and a clean card so you can keep shoo
 <br>
 <br>
 <br>
+**How?**
+All you need is a usb card reader device and an android phone or tablet. You can also use a dock to add your files straight to an ssd drive instead of the phone's internal storage.
+
+<br>
+<br>
+<br>
 
 **Google drive** still needs some work, but I'll soon add more cloud providers and options.
