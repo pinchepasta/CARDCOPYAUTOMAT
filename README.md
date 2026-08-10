@@ -1,5 +1,5 @@
 <img src="https://github.com/pinchepasta/CARDCOPYAUTOMAT/blob/main/app/src/main/res/drawable/automat.jpg" alt="LOGO" width="35%" height="35%">
-<i></i>An awesome Android tool for filmmakers!</i>
+<h2><i>An awesome Android tool for filmmakers!</i></h2>
 
 ## What it does
 
