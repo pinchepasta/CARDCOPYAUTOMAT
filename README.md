@@ -1,4 +1,7 @@
 # CardCopyAutomat
+
+<img src="https://github.com/pinchepasta/CARDCOPYAUTOMAT/blob/main/app/src/main/res/drawable/automat.jpg" alt="LOGO" width="50%" height="50%">
+
  An awesome Android tool for filmmakers!
 
 ## What it does
