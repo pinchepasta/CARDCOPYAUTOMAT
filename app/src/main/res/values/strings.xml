@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CardCopyAutomat</string>
+    <string name="main_title">CARDCOPY//AUTOMAT v.1.2</string>
+    <string name="settings_header">CARDCOPY//AUTOMAT v.1.2 - CONFIG</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_button">SETTINGS</string>
+
+    <string name="drive_a_label">DRIVE A: [SOURCE]</string>
+    <string name="select_card_volume">SELECT CARD VOLUME</string>
+    <string name="run_now">COPY</string>
+    <string name="setup_needed">Set up the card volume and destination in Settings first.</string>
+    <string name="dest_folder_info">Copies are saved to the app\'s internal folder: %1$s</string>
+    <string name="sign_in_google">Sign in to Google Drive</string>
+    <string name="signed_in_as">Signed in as %1$s</string>
+    <string name="not_signed_in">Not signed in</string>
+
+    <string name="upload_target_label">Upload copies to</string>
+    <string name="upload_target_none">Internal storage only (no cloud upload)</string>
+    <string name="upload_target_drive">Google Drive (UNDER CONSTRUCTION)</string>
+
+    <string name="status_idle">Idle — waiting for a card to be inserted</string>
+    <string name="status_scanning">Card detected — scanning for images…</string>
+    <string name="status_copying">Copying %1$s (%2$d of %3$d)…</string>
+    <string name="status_uploading">Uploading %1$s to Google Drive (%2$d of %3$d)…</string>
+    <string name="status_deleting">Deleting originals from the card…</string>
+    <string name="status_done_prefix">Done</string>
+    <string name="status_done">%1$s — %2$d file(s) copied. Safe to remove the card.</string>
+    <string name="status_error">Error: %1$s</string>
+    <string name="system_initializing">SYSTEM INITIALIZING...</string>
+    <string name="status_no_raw_files">No images found on this card.</string>
+
+    <string name="notif_channel_name">Card copy activity</string>
+    <string name="notif_title_working">CardCopyAutomat is working</string>
+    <string name="notif_title_done">Card copy finished</string>
+    <string name="notif_action_needed_title">Card reader connected</string>
+    <string name="notif_action_needed_body">Open CardCopyAutomat once to grant access to it.</string>
+</resources>

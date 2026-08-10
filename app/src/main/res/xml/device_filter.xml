@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    No vendor-id/product-id attributes = matches any attached USB device.
+    Card readers (CF/SD, USB2/USB3, single or multi-slot) come from many
+    different vendors, so we deliberately don't narrow this down. The
+    service itself decides whether the attach event is relevant.
+-->
+<resources>
+    <usb-device />
+</resources>

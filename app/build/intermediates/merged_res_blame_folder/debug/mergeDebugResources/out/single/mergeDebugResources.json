@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/layout_activity_main.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_scanline_pattern.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/scanline_pattern.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_p70_overlay.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/p70_overlay.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_automat.jpg.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/automat.jpg"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/xml_device_filter.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_dos_button_bg.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/dos_button_bg.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_ic_wrench.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/ic_wrench.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_bg_copy_button.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/bg_copy_button.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_fllogo.png.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/fllogo.png"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_p70_progress_bar.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/p70_progress_bar.xml"
+    },
+    {
+        "merged": "com.cardcopyautomat.app-debug-52:/layout_activity_info.xml.flat",
+        "source": "com.cardcopyautomat.app-main-54:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/layout_activity_info.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/layout_item_image.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/item_image.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_scanline_row.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/scanline_row.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/layout_activity_settings.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/drawable_p70_border.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/drawable/p70_border.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-debug-52:/layout_activity_splash.xml.flat",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_splash.xml"
+    }
+]

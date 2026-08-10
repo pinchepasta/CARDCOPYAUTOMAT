@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.cardcopyautomat.app-mergeDebugResources-51:/layout/activity_info.xml",
+        "source": "com.cardcopyautomat.app-main-54:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-mergeDebugResources-51:/layout/activity_settings.xml",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-mergeDebugResources-51:/layout/item_image.xml",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/item_image.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-mergeDebugResources-51:/layout/activity_info.xml",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-mergeDebugResources-51:/layout/activity_splash.xml",
+        "source": "/Users/feinlabsfilms/.gradle/daemon/8.13/com.cardcopyautomat.app-main-54:/layout/activity_splash.xml"
+    }
+]

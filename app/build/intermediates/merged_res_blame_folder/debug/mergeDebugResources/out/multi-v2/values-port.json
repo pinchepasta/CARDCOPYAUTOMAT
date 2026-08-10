@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cardcopyautomat.app-mergeDebugResources-50:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/feinlabsfilms/.gradle/caches/8.13/transforms/11ed7b42048cb94a7bbe0506664dc576/transformed/appcompat-1.7.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

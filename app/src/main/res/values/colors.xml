@@ -1,0 +1,14 @@
+<resources>
+    <color name="p70_black">#000000</color>
+    <color name="p70_orange">#FF8F00</color>
+    <color name="p70_orange_dim">#804700</color>
+    <color name="p70_orange_bg">#22FF8F00</color>
+
+    <!-- Retain original names for compatibility or update them -->
+    <color name="cyber_black">#000000</color>
+    <color name="cyber_green">#FF8F00</color>
+    <color name="cyber_pink">#FFB000</color>
+    <color name="cyber_dark_green">#442200</color>
+    <color name="cyber_scanline">#1AFF8F00</color>
+    <color name="ic_launcher_background">#000000</color>
+</resources>

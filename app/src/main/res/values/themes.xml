@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CardCopyAutomat" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/p70_orange</item>
+        <item name="colorPrimaryDark">@color/p70_black</item>
+        <item name="colorAccent">@color/p70_orange</item>
+        <item name="android:windowBackground">@color/p70_black</item>
+        <item name="android:textColor">@color/p70_orange</item>
+    </style>
+
+    <style name="CyberButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/cyber_pink</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">@color/cyber_pink</item>
+        <item name="rippleColor">@color/cyber_pink</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Circle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Square" parent="">
+        <item name="cornerSize">0dp</item>
+    </style>
+</resources>

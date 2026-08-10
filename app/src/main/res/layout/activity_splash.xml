@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/p70_black">
+
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/automat"
+            android:layout_marginBottom="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/system_initializing"
+            android:fontFamily="monospace"
+            android:textColor="@color/p70_orange"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/splashProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="12dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/p70_progress_bar" />
+
+    </LinearLayout>
+
+    <!-- Moving Scanline -->
+    <View
+        android:id="@+id/scanline"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#33FF8F00"
+        android:visibility="gone" />
+
+    <!-- Static CRT Shadow Mask -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/p70_overlay"
+        android:alpha="0.15"
+        android:clickable="false"
+        android:focusable="false" />
+
+</FrameLayout>

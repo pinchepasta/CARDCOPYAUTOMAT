@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/p70_black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_header"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="24dp" />
+
+            <!-- SECTION 1 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drive_a_label"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/selectCardVolumeButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_card_volume"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                app:strokeColor="@color/p70_orange"
+                app:strokeWidth="1dp"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.App.Square"
+                app:rippleColor="@color/p70_orange_bg"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/cardVolumeStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:alpha="0.8"
+                android:textSize="12sp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- SECTION 2 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FIXED DISK C: [DESTINATION]"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/destFolderStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:alpha="0.8"
+                android:textSize="12sp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- SECTION 3 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMMUNICATIONS [CLOUD UPLINK]"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <RadioGroup
+                android:id="@+id/uploadTargetGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <RadioButton
+                    android:id="@+id/radioNone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/upload_target_none"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/p70_orange"
+                    android:buttonTint="@color/p70_orange"/>
+
+                <RadioButton
+                    android:id="@+id/radioDrive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/upload_target_drive"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/p70_orange"
+                    android:buttonTint="@color/p70_orange"/>
+            </RadioGroup>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/googleSignInButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in_google"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                app:strokeColor="@color/p70_orange"
+                app:strokeWidth="1dp"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.App.Square"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/googleSignOutButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DISCONNECT LINK"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/googleAccountStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/p70_orange"
+                android:alpha="0.8"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- CRT Shadow Mask effect -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/p70_overlay"
+        android:alpha="0.15"
+        android:clickable="false"
+        android:focusable="false" />
+
+</FrameLayout>
