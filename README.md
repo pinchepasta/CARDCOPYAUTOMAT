@@ -2,7 +2,7 @@
 <h2><i>An awesome Android tool for filmmakers!</i></h2>
 
 <br><br>
-## What it does
+## And this is what it does:
 
 1. Watches for a USB card reader being attached (`UsbAttachReceiver` +
    `USB_DEVICE_ATTACHED`).
