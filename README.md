@@ -1,6 +1,5 @@
 # CardCopyAutomat
-
-Android Studio (Kotlin) project, `minSdk 28` (Android 9+), `compileSdk/targetSdk 34`.
+ An awesome tool for filmmakers!
 
 ## What it does
 
@@ -22,11 +21,6 @@ Android Studio (Kotlin) project, `minSdk 28` (Android 9+), `compileSdk/targetSdk
    two short vibration bursts as the "safe to remove the card" signal
    (`FeedbackHelper`).
 
-## How to open it
-
-Open the project root in Android Studio (Iguana or newer). Let it sync —
-Android Studio will regenerate the Gradle wrapper jar automatically on
-first sync even though it isn't checked into this bundle.
 
 ## Required one-time setup before it can build & run Google Sign-In
 
@@ -46,36 +40,3 @@ generically in source you're handed:
 
 No other code changes are needed — `play-services-auth` reads the matching
 client automatically from your app's signature + package name at runtime.
-
-## Important limitations (read before relying on this for real shoots)
-
-- **Android apps can't force-eject a USB mass-storage device** without
-  root — there's no public API for it. What the app does instead once it's
-  finished: release its own access permission to the volume, then give the
-  beep/vibrate signal that it's safe for *you* to physically remove the
-  card. That's the same trust model iOS/Android's own "Files" apps use.
-- **USB card swaps without a physical unplug/replug of the reader may not
-  re-trigger `USB_DEVICE_ATTACHED`.** Whether swapping a card in an
-  already-connected multi-slot reader re-enumerates the USB device (and
-  therefore re-fires the attach broadcast) depends on the reader hardware
-  and the phone's USB host controller — some do, some don't. As a reliable
-  fallback for that case, the main screen has a **"Copy now"** button that
-  runs the exact same job on demand.
-- The very first time you use a given reader, you'll need to open the app
-  and grant it access via the Storage Access Framework picker in Settings
-  (`Select card reader volume`) — Android doesn't allow apps to grant
-  themselves storage access silently, for good reason.
-
-## Project layout
-
-```
-app/src/main/kotlin/com/cardcopyautomat/app/
-  MainActivity.kt        entry screen, "Copy now" manual trigger
-  SettingsActivity.kt     SAF picker, upload target, Google sign-in
-  UsbAttachReceiver.kt     catches USB attach, starts the service
-  CardCopyService.kt      the actual scan → copy → upload → delete → signal job
-  RawFileScanner.kt       recursive .CR2/.CR3/.CRW finder over a SAF tree
-  GoogleDriveUploader.kt  Drive v3 REST multipart upload
-  FeedbackHelper.kt       beep + double short vibration
-  Prefs.kt                typed SharedPreferences wrapper
-```
