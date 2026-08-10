@@ -1,5 +1,5 @@
 # CardCopyAutomat
- An awesome tool for filmmakers!
+ An awesome Android tool for filmmakers!
 
 ## What it does
 
