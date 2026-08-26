@@ -5,6 +5,7 @@ Put in a card, press copy - and it just copies all files to your internal drive,
 Now you have your images, backups of them, and a clean card so you can keep shooting, no time lost.
 <br><br>
 
+<img src="https://github.com/pinchepasta/CARDCOPYAUTOMAT/blob/main/cardcopyautomat.jpg" alt="LOGO" width="40%" height="40%"> 
 
 <br>
 <br>
