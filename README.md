@@ -6,10 +6,9 @@ Now you have your images, backups of them, and a clean card so you can keep shoo
 <br><br>
 
 <br>
-
+<br>
 <img src="https://github.com/pinchepasta/CARDCOPYAUTOMAT/blob/main/cardcopyautomat.jpg" alt="LOGO" width="40%" height="40%"> 
 
-<br>
 <br>
 <br>
 <b>How does it work?</b>
